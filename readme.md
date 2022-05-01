@@ -3,7 +3,7 @@
 I have used postgres for database and I created a relational database with the schema given below
 
 
-
+````
 CREATE TABLE account_holder (
 	country_code VARCHAR(10) NOT NULL,
 	mobile_num VARCHAR(10) PRIMARY KEY NOT NULL,
@@ -16,3 +16,4 @@ CREATE TABLE account_holder (
 	account_num VARCHAR(15) NOT NULL,
 	pin VARCHAR(6) NOT NULL
 );
+````
